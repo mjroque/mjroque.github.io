@@ -12,5 +12,11 @@
     </style>
     <h1> Welcome to my app</h1>
     <p> Ma. Jane Lalaine Roque</p>
+
+    <script>
+        if("serviceworker" in navigator){
+            navigator.serviceworker.register("serviceworker.js");
+        }
+    </script>
 </body>
 </html>
